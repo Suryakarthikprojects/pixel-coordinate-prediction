@@ -1,3 +1,3 @@
 # pixel-coordinate-prediction
-Question : Using Deep Learning techniques, predict the coordinates (x,y) of a pixel which has a value of 255 for 1 pixel in a given 50x50 pixel grayscale image and all other pixels are 0. You may generate a dataset as required for solving the problem. Please explain your rationale behind dataset choices.
+
 Approach For Dataset : This code generates a synthetic dataset of 50×50 grayscale images by creating random snake-shaped paths of different lengths (1 to 1200) and placing one fruit pixel (value 255) at a random empty location. For deep learning training, it also creates a fruit-only binary image where only the fruit pixel is 1 and all others are 0. Finally, it saves all images and stores the fruit coordinates (x, y) and other details in a JSON label file.
